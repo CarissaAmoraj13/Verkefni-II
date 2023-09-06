@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pöntun</title>
+</head>
+<body>
+    <h1>Pantanir</h1>
+    <p>Pantaðu borð og mættu til okkar eða pantaðu mat sem við sendum þér eða þú sækir.</p>
+    <br>
+    
+    <ul>
+        <!--Panta borð-->
+        <!--Val um dagstíma-->
+        <li> <label for="date">Hvenær viltu koma?
+        </label><input type="date" id="date" name="date"></li>
+
+        <!--Val um 1-10-->
+        <Li><label for="number">Hve mörg? </label> <select id="number" name="number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+        </Li>
+
+        <!--Val um að skrifa inn texta-->
+        <Li><form><label for="userText"></label> Viltu taka eitthvað fram? <input type="text"id="userText" 
+            name="userText"> </form>
+        </Li>
+        <br><br>
+
+        <!--Panta mat-->
+        <!--fimm reitir sem leyfa val úr titlum rétta á matseðli-->
+        <li><label for="show-select">Réttur</label>
+            <br>
+            <select id="select-box" name="selected-optons" multiple="multiple">
+                <option value="option1">Lasagna</option>
+                <option value="option2">Sveppa rissoto</option>
+                <option value="option3">Ferskt pasta með pestó</option>
+                <option value="option4">Quesadilla</option>
+                <option value="option5">Falafel með hummus</option>
+                <option value="option6">Súpa dagsins</option>
+                <option value="option7">Kryddaðar sætkartöflur</option>
+                <option value="option8">Hamborgari</option>
+                <option value="option9">Pizza</option>
+            </select>
+        </li>
+        <br>
+        <!--Heimilisfang-->
+        <li><form> <label for="userText"></label>Heimilisfang:
+             <input type="text" id="userText" name="userText"></form></li>
+             <br>
+             
+             <!--Þínar upplýsingar-->
+             <li><form><label for="userText"></label>Nafn:
+            <input type="text" id="userText" name="userText"> </form></li>
+             <li><form><lable for="userText"></lable>Netfang:
+                <input type="text" id="user-input" name="user-input" placeholder="mkcjt0619@gmail.com">
+             </form></li>
+             <li><form><label for="userText"></label>Sími:
+                <input type="text" id="user-input" name="user-input" placeholder="7818175">
+             </form></li>
+            </ul>
+
+             <!--Samþykkja og panta-->
+             <label for="accept-terms">Ég samþykki skilmála Veitingastaðsins</label>
+                <input type="checkbox" id="accept-terms" name="accept-terms">
+            <br><br>
+             <button type="submit">Panta</button>
+    <br><br>
+
+    
+
+    <br> <hr>
+    <a href="index.html">Aftur á forsíðu</a>
+    <hr>
+    <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
+
+
+        
+</body>
+</html>
